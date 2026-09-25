@@ -1,0 +1,5 @@
+<ul>
+    {% for planet in site.data.planet-list %}
+    <li><strong>{{ planet.name }}</strong> has color {{ planet.color }}</li>
+    {% endfor %}
+</ul>
