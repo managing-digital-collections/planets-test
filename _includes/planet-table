@@ -1,0 +1,10 @@
+<table>
+    <thead><th>Planet</th><th>Atmosphere</th><th>Color</th></thead>
+    {% for planet in site.data.planet-list %}
+    <tr>
+        <td>{{ planet.name }}</td>
+        <td>{% if planet.atmosphere %}{{ planet.atmosphere }}{% endif %}</td>
+        <td>{{ planet.color }}</td>
+    </tr>
+    {% endfor %}
+</table>
