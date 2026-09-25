@@ -6,4 +6,4 @@ This page will have a new planets list below.
 
 {% include planet-list-include.html %}
 
-Hello :) 
+Hello :)
