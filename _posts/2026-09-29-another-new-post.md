@@ -12,6 +12,6 @@ This is a post about a new planet.
 
 This post has some metadata, here it is:
 
-- {{ post.name }}
-- {{ post.location }}
-- {{ post.environment }}
+- {{ page.name }}
+- {{ page.location }}
+- {{ page.environment }}
